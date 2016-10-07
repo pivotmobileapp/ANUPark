@@ -1,26 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ANUPark" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome background" translatesAutoresizingMaskIntoConstraints="NO" id="Loi-0s-GfR"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="slide1" translatesAutoresizingMaskIntoConstraints="NO" id="9XR-AG-DUG">
+                                <frame key="frameInset" width="414" height="521"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQm-h7-PO3">
+                                <frame key="frameInset" minX="197" minY="564" width="143" height="46"/>
+                                <state key="normal" title="Sign In" backgroundImage="button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deK-g5-RXp">
+                                <frame key="frameInset" minX="40" minY="564" width="143" height="46"/>
+                                <state key="normal" title="Sign Up" backgroundImage="button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Loi-0s-GfR" secondAttribute="bottom" id="578-3S-4an"/>
+                            <constraint firstItem="9XR-AG-DUG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8he-vN-T4g"/>
+                            <constraint firstItem="bQm-h7-PO3" firstAttribute="top" secondItem="9XR-AG-DUG" secondAttribute="bottom" constant="47" id="EwC-ea-zez"/>
+                            <constraint firstItem="9XR-AG-DUG" firstAttribute="centerX" secondItem="Loi-0s-GfR" secondAttribute="centerX" id="KVA-ia-Rda"/>
+                            <constraint firstItem="Loi-0s-GfR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OFN-5R-yR1"/>
+                            <constraint firstAttribute="trailing" secondItem="9XR-AG-DUG" secondAttribute="trailing" id="WuH-3b-aYA"/>
+                            <constraint firstItem="deK-g5-RXp" firstAttribute="top" secondItem="9XR-AG-DUG" secondAttribute="bottom" constant="47" id="XFm-24-7N3"/>
+                            <constraint firstAttribute="trailing" secondItem="Loi-0s-GfR" secondAttribute="trailing" id="qgI-bI-uBs"/>
+                            <constraint firstItem="9XR-AG-DUG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tgj-Cw-Vq2"/>
+                            <constraint firstItem="Loi-0s-GfR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="w4F-RA-AQg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="115.94202898550725" y="120.65217391304348"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7RB-2S-oIG">
+            <objects>
+                <viewController id="fyt-GH-a0H" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yp1-c3-OAF"/>
+                        <viewControllerLayoutGuide type="bottom" id="L6i-yQ-LG8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DcA-3l-bat">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VGj-UO-1Oh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877" y="116"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="button" width="495" height="184"/>
+        <image name="slide1" width="1439" height="2009"/>
+        <image name="welcome background" width="1439" height="2558"/>
+    </resources>
 </document>

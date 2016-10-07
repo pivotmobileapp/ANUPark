@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2E62BCD61DA2CE7E006C424E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62BCD51DA2CE7E006C424E /* AppDelegate.swift */; };
-		2E62BCD81DA2CE7E006C424E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62BCD71DA2CE7E006C424E /* ViewController.swift */; };
+		2E62BCD81DA2CE7E006C424E /* welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62BCD71DA2CE7E006C424E /* welcome.swift */; };
 		2E62BCDB1DA2CE7E006C424E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E62BCD91DA2CE7E006C424E /* Main.storyboard */; };
 		2E62BCDD1DA2CE7E006C424E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E62BCDC1DA2CE7E006C424E /* Assets.xcassets */; };
 		2E62BCE01DA2CE7E006C424E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E62BCDE1DA2CE7E006C424E /* LaunchScreen.storyboard */; };
 		2E62BCEB1DA2CE7E006C424E /* ANUParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62BCEA1DA2CE7E006C424E /* ANUParkTests.swift */; };
 		2E62BCF61DA2CE7F006C424E /* ANUParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62BCF51DA2CE7F006C424E /* ANUParkUITests.swift */; };
+		2E9645DB1DA839ED0088AA08 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9645DA1DA839ED0088AA08 /* Login.swift */; };
+		2E9645DD1DA83A0E0088AA08 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9645DC1DA83A0E0088AA08 /* Signup.swift */; };
+		2E9645DF1DA83A250088AA08 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9645DE1DA83A250088AA08 /* Parking.swift */; };
+		2E9645E11DA83A600088AA08 /* Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9645E01DA83A600088AA08 /* Sessions.swift */; };
+		2E9645E31DA83A7E0088AA08 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9645E21DA83A7E0088AA08 /* Map.swift */; };
+		2E9645E51DA83A920088AA08 /* FindMyCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9645E41DA83A920088AA08 /* FindMyCar.swift */; };
+		2E9645E71DA83AB20088AA08 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9645E61DA83AB20088AA08 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		2E62BCD21DA2CE7E006C424E /* ANUPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANUPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E62BCD51DA2CE7E006C424E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E62BCD71DA2CE7E006C424E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E62BCD71DA2CE7E006C424E /* welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcome.swift; sourceTree = "<group>"; };
 		2E62BCDA1DA2CE7E006C424E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E62BCDC1DA2CE7E006C424E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E62BCDF1DA2CE7E006C424E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		2E62BCF11DA2CE7F006C424E /* ANUParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANUParkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E62BCF51DA2CE7F006C424E /* ANUParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANUParkUITests.swift; sourceTree = "<group>"; };
 		2E62BCF71DA2CE7F006C424E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9645DA1DA839ED0088AA08 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		2E9645DC1DA83A0E0088AA08 /* Signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		2E9645DE1DA83A250088AA08 /* Parking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		2E9645E01DA83A600088AA08 /* Sessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sessions.swift; sourceTree = "<group>"; };
+		2E9645E21DA83A7E0088AA08 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		2E9645E41DA83A920088AA08 /* FindMyCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyCar.swift; sourceTree = "<group>"; };
+		2E9645E61DA83AB20088AA08 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				2E62BCD51DA2CE7E006C424E /* AppDelegate.swift */,
-				2E62BCD71DA2CE7E006C424E /* ViewController.swift */,
+				2E9645D91DA8399F0088AA08 /* Model */,
 				2E62BCD91DA2CE7E006C424E /* Main.storyboard */,
 				2E62BCDC1DA2CE7E006C424E /* Assets.xcassets */,
 				2E62BCDE1DA2CE7E006C424E /* LaunchScreen.storyboard */,
@@ -123,6 +137,21 @@
 				2E62BCF71DA2CE7F006C424E /* Info.plist */,
 			);
 			path = ANUParkUITests;
+			sourceTree = "<group>";
+		};
+		2E9645D91DA8399F0088AA08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E62BCD71DA2CE7E006C424E /* welcome.swift */,
+				2E9645DC1DA83A0E0088AA08 /* Signup.swift */,
+				2E9645E61DA83AB20088AA08 /* Settings.swift */,
+				2E9645DE1DA83A250088AA08 /* Parking.swift */,
+				2E9645E21DA83A7E0088AA08 /* Map.swift */,
+				2E9645E41DA83A920088AA08 /* FindMyCar.swift */,
+				2E9645DA1DA839ED0088AA08 /* Login.swift */,
+				2E9645E01DA83A600088AA08 /* Sessions.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E62BCD81DA2CE7E006C424E /* ViewController.swift in Sources */,
+				2E62BCD81DA2CE7E006C424E /* welcome.swift in Sources */,
+				2E9645DD1DA83A0E0088AA08 /* Signup.swift in Sources */,
+				2E9645E11DA83A600088AA08 /* Sessions.swift in Sources */,
+				2E9645E31DA83A7E0088AA08 /* Map.swift in Sources */,
+				2E9645DF1DA83A250088AA08 /* Parking.swift in Sources */,
+				2E9645DB1DA839ED0088AA08 /* Login.swift in Sources */,
+				2E9645E71DA83AB20088AA08 /* Settings.swift in Sources */,
 				2E62BCD61DA2CE7E006C424E /* AppDelegate.swift in Sources */,
+				2E9645E51DA83A920088AA08 /* FindMyCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +541,7 @@
 				2E62BCFC1DA2CE7F006C424E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E62BCFD1DA2CE7F006C424E /* Build configuration list for PBXNativeTarget "ANUParkTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +550,7 @@
 				2E62BCFF1DA2CE7F006C424E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E62BD001DA2CE7F006C424E /* Build configuration list for PBXNativeTarget "ANUParkUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +559,7 @@
 				2E62BD021DA2CE7F006C424E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
