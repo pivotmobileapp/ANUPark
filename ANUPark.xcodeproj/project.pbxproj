@@ -114,6 +114,14 @@
 				2E62BCD51DA2CE7E006C424E /* AppDelegate.swift */,
 				2E9645D91DA8399F0088AA08 /* Model */,
 				2E62BCD91DA2CE7E006C424E /* Main.storyboard */,
+				2E9645DC1DA83A0E0088AA08 /* Signup.swift */,
+				2E9645E61DA83AB20088AA08 /* Settings.swift */,
+				2E9645DE1DA83A250088AA08 /* Parking.swift */,
+				2E9645E21DA83A7E0088AA08 /* Map.swift */,
+				2E9645E41DA83A920088AA08 /* FindMyCar.swift */,
+				2E9645DA1DA839ED0088AA08 /* Login.swift */,
+				2E9645E01DA83A600088AA08 /* Sessions.swift */,
+				2E62BCD71DA2CE7E006C424E /* welcome.swift */,
 				2E62BCDC1DA2CE7E006C424E /* Assets.xcassets */,
 				2E62BCDE1DA2CE7E006C424E /* LaunchScreen.storyboard */,
 				2E62BCE11DA2CE7E006C424E /* Info.plist */,
@@ -142,14 +150,6 @@
 		2E9645D91DA8399F0088AA08 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2E62BCD71DA2CE7E006C424E /* welcome.swift */,
-				2E9645DC1DA83A0E0088AA08 /* Signup.swift */,
-				2E9645E61DA83AB20088AA08 /* Settings.swift */,
-				2E9645DE1DA83A250088AA08 /* Parking.swift */,
-				2E9645E21DA83A7E0088AA08 /* Map.swift */,
-				2E9645E41DA83A920088AA08 /* FindMyCar.swift */,
-				2E9645DA1DA839ED0088AA08 /* Login.swift */,
-				2E9645E01DA83A600088AA08 /* Sessions.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "sherwin jupiter";
 				TargetAttributes = {
 					2E62BCD11DA2CE7E006C424E = {
@@ -369,6 +369,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -419,6 +420,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
